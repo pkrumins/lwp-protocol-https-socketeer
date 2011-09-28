@@ -14,7 +14,7 @@ use strict;
 use warnings;
 
 use LWP::UserAgent;
-use LWP::Protocol::http::Socketeer;
+use LWP::Protocol::https::Socketeer;
 
 LWP::Protocol::implementor( https => 'LWP::Protocol::https::Socketeer' ); 
 
